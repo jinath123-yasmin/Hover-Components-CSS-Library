@@ -472,6 +472,7 @@ article h3 {
     background-color: var(--shadow_lt);
     padding-top: 2rem;
     padding-bottom: 2rem;
+   
 }
 
 
@@ -489,7 +490,8 @@ article h3 {
     color: white;
     background-color: var(--dark-blue);
     font-size: larger;
-    border: 2px solid var(--gray_lt)
+    border: 2px solid var(--gray_lt);
+    cursor: pointer
 }
 
 .secondary_btn {
@@ -500,6 +502,7 @@ article h3 {
     border: 1px solid var(--dark-blue);
     box-shadow: var(--shadow_lt);
     font-size: larger;
+    cursor: pointer
 }
 
 .tertiary_btn {
@@ -510,6 +513,7 @@ article h3 {
     border: 2px solid var(--dark-blue);
     box-shadow: var(--shadow_lt);
     font-size: larger;
+    cursor: pointer
 }
 
 .tr_link {
@@ -534,6 +538,7 @@ article h3 {
     width: 50px;
     border-radius: 50%;
     font-size: larger;
+    cursor: pointer
 }
 
 .border_primary {
@@ -639,7 +644,7 @@ article h3 {
 
 }
 
-.avatar_size {
+/* .avatar_size {
     width: 40px;
     height: 40px;
     display: flex;
@@ -647,7 +652,7 @@ article h3 {
     align-items: center;
     border-radius: 50%;
     box-shadow: 3px 3px 2px var(--shadow_lt);
-}
+} */
 
 .profile {
     display: flex;
